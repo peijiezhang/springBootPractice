@@ -1,0 +1,27 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<!DOCTYPE mapper PUBLIC
+        "-//mybatis.org//DTD com.example.Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.zpj.dto.UserMapper">
+    <resultMap id="result" type="com.zpj.dto.data.User">
+        <result property="userName" column="userName" />
+        <result property="passWord" column="passWord"/>
+        <result property="number" column="number"/>
+
+    </resultMap>
+    <select id="ListUser" resultMap="result">
+        SELECT * FROM user
+    </select>
+    <select id="Login"  resultMap="result">
+
+        select username,password from user where username=#{userName} and password=#{passWord}
+
+    </select>
+
+
+
+
+
+
+
+</mapper>
