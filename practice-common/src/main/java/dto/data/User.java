@@ -1,4 +1,4 @@
-package com.zpj.dto.data;
+package dto.data;
 
 public class User {
 

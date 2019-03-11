@@ -1,9 +1,8 @@
-package com.zpj.dao.impl;
+package dao.impl;
 
-import com.alibaba.druid.util.StringUtils;
-import com.zpj.dao.UserLoginDao;
-import com.zpj.dto.data.User;
-import com.zpj.dto.mapper.UserMapper;
+import dao.UserLoginDao;
+import dto.data.User;
+import dto.mapper.UserMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 
 public class UserLoginDaoImpl implements UserLoginDao {

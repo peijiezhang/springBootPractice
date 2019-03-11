@@ -1,7 +1,7 @@
-package com.zpj.dao;
+package dao;
 
 
-import com.zpj.dto.data.User;
+import dto.data.User;
 import org.springframework.stereotype.Repository;
 
 @Repository

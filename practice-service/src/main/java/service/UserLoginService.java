@@ -1,7 +1,7 @@
-package com.zpj.service;
+package service;
 
 
-import com.zpj.dto.data.User;
+import dto.data.User;
 import org.springframework.stereotype.Service;
 
 @Service

@@ -2,8 +2,8 @@
 <!DOCTYPE mapper PUBLIC
         "-//mybatis.org//DTD com.example.Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.zpj.dto.UserMapper">
-    <resultMap id="result" type="com.zpj.dto.data.User">
+<mapper namespace="dto.UserMapper">
+    <resultMap id="result" type="dto.data.User">
         <result property="userName" column="userName" />
         <result property="passWord" column="passWord"/>
         <result property="number" column="number"/>

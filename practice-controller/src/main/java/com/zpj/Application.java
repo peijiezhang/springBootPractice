@@ -12,7 +12,7 @@ import org.springframework.context.annotation.ImportResource;
  */
 @ImportResource("classPath:UserMapper.xml" )
 @SpringBootApplication
-@MapperScan(basePackages = "com/zpj/dto/mapper", sqlSessionFactoryRef = "sqlSessionFactory")
+@MapperScan(basePackages = "dto/mapper", sqlSessionFactoryRef = "sqlSessionFactory")
 public class Application {
 
     public static void main(String[] args) {

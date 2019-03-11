@@ -11,6 +11,8 @@
 
     <artifactId>practice-common</artifactId>
 
+    <packaging>pom</packaging>
+
 
 
 </project>
